@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './FoodItem.css'
 import { assets } from '../../assets/assets'
-
+/*this is a comment*/
 const FoodItem = ({id,name,price,description,image}) => {
   
     const [itemCount,setItemCount] = useState(0);
